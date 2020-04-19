@@ -22,11 +22,14 @@ const growGradle = async (
     //need to put in the block
     const androidIndex =
       appGradleLines.findIndex((l) => l.trim().startsWith("android {")) + 1;
-    appGradleLines.splice(androidIndex, 0, [
-      "dexOptions {",
-      `javaMaxHeapSize "${dexSize}"`,
-      "}",
-    ]);
+    appGradleLines.splice(
+      androidIndex,
+      0,
+      `
+      dexOptions {
+           javaMaxHeapSize "${dexSize}"
+      }`
+    );
   } else {
     appGradleLines[index] = `javaMaxHeapSize "${dexSize}"`;
   }
