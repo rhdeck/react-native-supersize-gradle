@@ -1,6 +1,6 @@
 {
   "name": "react-native-supersize-gradle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Supersize gradle to a bigger memory size for large Android compilations",
   "main": "index.js",
   "scripts": {
