@@ -16,7 +16,7 @@ module.exports = {
           default: "3g",
         },
       ],
-      func: async (_, _, { jvm, dex }) => {
+      func: async (_, __, { jvm, dex }) => {
         console.log("Growing gradle jvm memory setting to ", jvm);
         console.log("Growing dex compilation memory to ", dex);
         await supersizeGradle(jvm, dex);
