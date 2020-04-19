@@ -17,7 +17,7 @@ const growGradle = async (
     throw ("Could not find file: ", appGradlePath);
   const appGradleText = readFileSync(appGradlePath, { encoding: "utf8" });
   const appGradleLines = appGradleText.split("\n");
-  const index = !appGradleLines.findIndex((l) => l.includes("javaMaxHeapSize"));
+  const index = appGradleLines.findIndex((l) => l.includes("javaMaxHeapSize"));
   if (index === -1) {
     //need to put in the block
     const androidIndex =
