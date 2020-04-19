@@ -329,13 +329,12 @@
     core-js "^3.4.1"
     regenerator-runtime "^0.13.3"
 
-"@raydeck/react-native-utilities@^1.3.8":
-  version "1.3.8"
-  resolved "https://registry.yarnpkg.com/@raydeck/react-native-utilities/-/react-native-utilities-1.3.8.tgz#f6691bfa2eb2afdb96913dd09063b3a26029b909"
-  integrity sha512-3+YfrgrwFErV8eLJvH43uyYD9po20+UG2Kpwjca3ip6zTl+pSjIIiBFQg2dl0oI4weIeMtBjSBB3b4pjPYC8JQ==
+"@raydeck/react-native-utilities@^1.3.9":
+  version "1.3.9"
+  resolved "https://registry.yarnpkg.com/@raydeck/react-native-utilities/-/react-native-utilities-1.3.9.tgz#4d829789039cc4c851dc68321db3e0ab3dd81623"
+  integrity sha512-8I+b+9HjWBtnbc2Ja9fIwZzgoouIXZxTt4nhk/pMXEy9gUd93KRlmXuVgcAtWbUfzm/GIunEfQhZhuthMkjc9Q==
   dependencies:
     "@raydeck/xcode" "^2.2.1"
-    ini "^1.3.5"
     jimp "^0.10.1"
     mustache "^4.0.1"
     plist "^3.0.1"
@@ -432,11 +431,6 @@ ieee754@^1.1.4:
   version "1.1.13"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
   integrity sha512-4vf7I2LYV/HaWerSo3XmlMkp5eZ83i+/CDluXi/IGTs/O1sejBNhTtnxzmRZfvOUqj7lZjqHkeTvpgSFDlWZTg==
-
-ini@^1.3.5:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
 is-function@^1.0.1:
   version "1.0.1"
